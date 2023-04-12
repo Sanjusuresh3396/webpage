@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+  height: 100%;
+}
+
+/* navbar */
+.navbar-brand{
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav-link{
+  color: white;
+  margin-right: 25px;
+}
+.fa-solid.fa-globe{
+  padding-right: 5px;
+}
+
+
+/* main-body */
+.main-body{
+  background-color: rgb(225,245,246);
+  width: 100%;
+}
+
+.carousel-heading{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(94,127,178);
+  text-align: center;
+  padding-top: 50px;
+}
+.carousel-content{
+  padding-left: 155px;
+  color: rgb(94,127,178);
+}
+.fa-solid.fa-play{
+  color: white;
+  background-color: rgb(94,127,178);
+  padding: 20px;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+/* end to end portion */
+.end-to-end{
+  background-color: white;
+}
+.End-to-heading{
+  font-size: 35px;
+  padding-left: 30px;
+  color: rgb(94,127,178);
+  text-align: center;
+  padding-top: 50px;
+}
+.fa-solid.fa-image{
+  color: rgb(94,127,178);
+  padding-top: 100px;
+  padding-left: 100px;
+  font-size: 50px;
+}
+.header-discover{
+  text-align: center;
+  color: rgb(94,127,178);
+  font-size: 30px;
+  margin: 0;
+}
+.miniheader-discover{
+  text-align: center;
+  color: rgb(94,127,178);
+  font-size: 17px;
+}
+.card-head{
+  text-align: center;
+  color: rgb(94,127,178);
+  font-size: 25px;
+}
+.card-content{
+  text-align: center;
+  color: rgb(94,127,178);
+  font-size: 15px;
+}
+.card-more{
+  text-align: center;
+  color: rgb(94,127,178);
+  font-size: 15px;
+}
+.fa-regular.fa-image{
+  color: rgb(94,127,178);
+  font-size: 50px;
+  padding-left: 140px;
+  padding-bottom: 20px;
+}
+.box{
+  border-style: solid;
+  border-color:rgb(208, 222, 243);
+  border-width: 0.5px;
+  padding: 20px;
+  
+}
+
+.header-industries{
+  text-align: center;
+  color: rgb(94,127,178);
+  font-size: 30px;
+  margin: 0;
+  padding-top: 50px;
+}
+.miniheader-industries{
+  text-align: center;
+  color: rgb(94,127,178);
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 45px;
+}
+
+.card{
+  border: none;
+  padding-bottom: 50px;
+}
+
+.want-to-learn{
+  background-color: rgb(94,127,178);
+  font-size: 15px;
+  padding-left: 30px;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  padding: 20px;
+}
+.want-to-heading{
+  font-size: 35px;
+}
+
+.footer{
+  background-color: rgb(225,245,246);
+}
+.footer-head{
+  color: rgb(94,127,178);
+  font-size: 15px;
+  padding-left: 15px;
+}
+.footer-minihead{
+  color: rgb(94,127,178);
+  font-size: 12px;
+  padding-left: 15px;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: silver;
+  margin-bottom: 20px;
+}
+.lorem{
+  color: rgb(94,127,178);
+  font-size: 12px;
+  padding-left: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+  .carousel-heading{
+    font-size: 25px;
+  }
+  .carousel-content{
+    padding-left: 50px;
+    color: rgb(94,127,178);
+  }
+  .fa-solid.fa-play{
+   display: none; 
+  }
+  .fa-solid.fa-image{
+    display: none;
+  }
+  .fa-regular.fa-image{
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+  .card-head{
+    padding-left: 80px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .carousel-heading{
+    font-size: 25px;
+  }
+  .carousel-content{
+    padding-left: 45px;
+    color: rgb(94,127,178);
+  }
+ }
+
+ 
